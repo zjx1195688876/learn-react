@@ -1,0 +1,39 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjx1195688876/learn-react.git"
+  },
+  "lint-staged": {
+    "src/*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "zhangjinxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjx1195688876/learn-react/issues"
+  },
+  "homepage": "https://github.com/zjx1195688876/learn-react#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.13.4",
+    "lint-staged": "^3.6.0",
+    "react": "^15.5.4"
+  }
+}
